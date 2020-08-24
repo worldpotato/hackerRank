@@ -14,7 +14,6 @@ constexpr int numberOfScores = 5;
 
 class Student {
 
-
 public:
     Student();
     auto input() -> void;
@@ -23,7 +22,6 @@ public:
 
 private:
     int scores[numberOfScores];
-    /* private data */
 };
 
 #endif /* end of include guard STUDENT_HPP */

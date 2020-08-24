@@ -5,3 +5,4 @@ set(CMAKE_BUILD_TYPE Release)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 add_library(student SHARED src/Student.cpp)
+target_include_directories(student PUBLIC include)

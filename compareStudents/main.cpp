@@ -1,11 +1,11 @@
 /**
- * @author      : worldpotato (worldpotato@$HOSTNAME)
+ * @author      : worldpotato
  * @file        : main
  * @created     : Sunday Aug 23, 2020 22:19:32 CEST
  */
 
 #include <iostream>
-#include "src/student/include/Student.hpp"
+#include "Student.hpp"
 
 int main()
 {
